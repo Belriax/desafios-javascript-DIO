@@ -1,12 +1,13 @@
-let N = gets();
+let X = parseFloat(gets());
 
-print("1 x 999" + " = " + (N * 1));
-print("2 x 999" + " = " + (N * 2));
-print("3 x 999" + " = " + (N * 3));
-print("4 x 999" + " = " + (N * 4));
-print("5 x 999" + " = " + (N * 5));
-print("6 x 999" + " = " + (N * 6));
-print("7 x 999" + " = " + (N * 7));
-print("8 x 999" + " = " + (N * 8));
-print("9 x 999" + " = " + (N * 9));
-print("10 x 999" + " = " + (N * 10));
+if (X >= 0 && X<=25){print("Intervalo [0,25]" );
+
+}else if(X >= 25 && X<=50){print("Intervalo (25,50]");
+
+}else if(X >= 50 && X<= 75){print("Intervalo (50,75]");
+
+}else if(X >= 75 && X<=100){print("Intervalo (75,100]");        //complete o código nos espaços em branco
+
+}else{print("Fora de intervalo");
+
+}
